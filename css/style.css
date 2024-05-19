@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.menu_bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu_bg ul li a.active{
+    background-color: red;
+}
+.menu_bg ul li a{
+    padding: 30px !important;
+}
+#abc{
+    height: 500px;
+    background-color: aqua;
+}
+#chal{
+    height: 500px;
+    background-color: green;
+}
+#habi{
+    height: 500px;
+    background-color: orange;
+}
+#jabi{
+    height: 500px;
+    background-color: salmon;
+}
+#contact{
+    height: 500px;
+    background-color: azure;
+}
+.back{
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
